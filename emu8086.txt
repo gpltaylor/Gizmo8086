@@ -1,0 +1,10 @@
+https://web.archive.org/web/20120103092318/http://www.emu8086.com/d/emu8086v408r.exe
+
+http://ece425web.groups.et.byu.net/stable/labs/8086InstructionSet.html
+
+http://courses.ee.sun.ac.za/OLD/2003/Rekenaarstelsels245/8086_Instruksies/asm_tutorial_05.html
+
+http://80864beginner.com/Tutorial/8086-Registers.html
+
+user: ic0n0statse
+key: CSEJHFVZ3FRTQZXJKASA

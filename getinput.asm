@@ -3,10 +3,14 @@ org 100h
 
 var1 DW 200h
            
-; keyboard input subprogram
+; Get input until ; is entered
+lbGetInput:
 call getInput 
-call getInput 
-call getInput  
+cmp al, 3Bh
+jne lbGetInput   
+
+;call adder
+call parseInput
 
 hlt
             
@@ -24,4 +28,9 @@ mov [bx], al
 inc var1
 ret
 
-hlt
+
+hlt      
+     
+    
+include "adder.asm"  
+include "parser.asm" 
