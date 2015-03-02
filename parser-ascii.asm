@@ -18,6 +18,7 @@ call parseInput
 ;call printNewLine
 mov ah, 0
 call displayNumber
+call printNewLine           
 
 ; reset mem
 mov var1, 200h
@@ -76,7 +77,8 @@ printNewLine proc
     mov    ah, 02h     ; display character function
     int    21h         ; displays converted input
 RET 
-
+    
+; Print number at AX
 displayNumber   proc       ;Beginning of procedure 
    MOV BX, 10     ;Initializes divisor
    MOV DX, 0000H    ;Clears DX
