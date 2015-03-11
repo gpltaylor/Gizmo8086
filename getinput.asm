@@ -1,19 +1,9 @@
 
-org 100h
+; Get Input and store into mem using var1
 
-var1 DW 200h
-           
-; Get input until ; is entered
-lbGetInput:
-call getInput 
-cmp al, 3Bh
-jne lbGetInput   
+;org 100h
+;var1 DW 200h
 
-;call adder
-call parseInput
-
-hlt
-            
 ; Get input from keyboard
 getInput PROC
 MOV AX, 0B800h
@@ -27,10 +17,3 @@ mov [bx], al
 ; Increment var so the next time we call we write to the next address up
 inc var1
 ret
-
-
-hlt      
-     
-    
-include "adder.asm"  
-include "parser.asm" 

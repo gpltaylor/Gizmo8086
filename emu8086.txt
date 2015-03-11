@@ -8,5 +8,7 @@ http://courses.ee.sun.ac.za/OLD/2003/Rekenaarstelsels245/8086_Instruksies/asm_tu
 
 http://80864beginner.com/Tutorial/8086-Registers.html
 
+http://www.ic.unicamp.br/~celio/mc404s2-03/addr_modes/intel_addr.html
+
 user: ic0n0statse
 key: CSEJHFVZ3FRTQZXJKASA
