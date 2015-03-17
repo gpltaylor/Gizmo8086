@@ -2,8 +2,6 @@
 ; Test GetInput to make sure memmory is working as expected
 
 org 100h
-
-
 var1 DW 200h
            
 ; Get input until ; is entered
